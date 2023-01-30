@@ -1,0 +1,104 @@
+.openinghours {
+    font-family:Lucida Console;
+    border-radius:4px;
+    margin:10px;
+    box-shadow: 0 0 10px black;
+    padding:0 10px 0 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+.timeing{
+            background-image: url(img/clocks-showing-time-in-different-cities-on-wall-in-hotel-2BJK1GE.jpg);
+}
+.openinghourscontent {
+    float:left;
+}
+.openinghourscontent h2 {
+    display:block;
+    text-align:center;
+    margin-top:.33em;
+}
+.openinghourscontent button {
+    color:white;
+    font-family:Courier New;
+    font-size:large;
+    font-weight:bolder;
+    background-color:#4679BD;
+    border-radius:4px;
+    width:100%;
+    margin-bottom:10px;
+}
+a.home {
+    color: black;
+}
+a.openig {
+    color: black;
+}
+a.abaot.us {
+    color: black;
+}
+a.menupricing {
+    color: black;
+}
+a.contact {
+    color: black;
+}
+.today {
+    color: #8AC007;
+}
+.opening-hours-table tr td:first-child {
+    font-weight:bold;
+}
+#open-status {
+    display:block;
+    margin-top:-1em;
+    text-align:center;
+    border:dotted lightgrey 3px;
+}
+.openorclosed:after {
+    content:" open during these hours:";
+}
+.open {
+    color:green;
+}
+.open:after {
+    content:" Open";
+    color: #6C0;
+}
+.closed:after {
+    content:" Closed";
+    color: red;
+}
+.opening-hours-table tr td {
+    padding:5px;
+}
+section.openinghours {
+    width: 989px;
+    margin-left: 190px;
+}
+.openinghourscontent.section {
+    margin-left: 368px;
+    padding: 4px;
+}
+.openinghourscontent.section {
+    margin-left: 368px;
+    padding: 4px;
+}
+
+
+
+@media screen and (max-width: 390px) {
+    .openinghourscontent.section {
+        margin-left: 86px;
+    }
+    h2 {
+        margin-top: 50px !important;
+    }
+
+    section.openinghours {
+        margin-left: 50px;
+    }
+    section.openinghours {
+        margin-left: -15px;
+    }
+}

@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@500;700&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+ }
+
+ html, body {
+  margin-top: auto;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue",sans-serif;
+  font-weight: lighter;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/14.jpg);
+  background-size: cover;
+}
+
+
+.logo {
+  line-height: 60px;
+  position: fixed;
+  float: left;
+  margin: 16px 46px;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 60px;
+
+}
+.main-text{
+  text-align: center; 
+  position: absolute;
+  font-size: 50px;
+  top: 335px;
+  left: 50%;
+  color: rgb(250, 250, 250);
+  transform: translate(-50% , -50%);      
+}
+
+nav ul {
+  line-height: 60px;
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
+}
+
+nav.black ul {
+  margin-top: -25px;
+   background-color: white;
+   height: 150px;
+   padding-top: 30px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 40px;;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(192, 185, 185);
+  font-size: 16px;
+}
+
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background: white;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: rgb(14, 12, 12);
+  display: none;
+}
+.main-text {
+  font-size: 50px !important;
+}
+.wrapper{
+  align-items: center;
+  justify-content: center;
+}
+a.text-dark.email {
+  margin-left: -86px;
+}
+
+
+@media(max-width: 786px) {
+
+  .logo {
+        
+        top: 0;
+        margin-top: 16px;
+  }
+
+  nav ul {
+        max-height: 0px;
+        background: white;
+  }
+
+  nav.black ul {
+        background: white;
+  }
+
+  .showing {
+        max-height: 34em;
+  }
+
+  nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px;
+        text-align: center;
+  }
+
+  .menu-icon {
+        display: block;
+  }
+
+  /* ----------------------------------------------- */
+
+}
+.iamge{
+    margin-left: 620px;
+}
+.p1{
+    text-align: center !important;
+}
+h1{
+  text-align: center;
+  margin-top: 50px;
+  color: rgb(160, 157, 157);
+  margin-top: 80px !important;
+  
+}
+.EXCITETHEAPPETITEpp{
+  color: rgb(160, 157, 157);
+  margin-bottom: 100px;
+}
+.EXCITETHEAPPETITE{
+  width: 100%;
+  height: 100%;
+  background: url( img/fish3.jpg)  no-repeat 50% 50%;
+}
+.images1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.images1:hover, a:hover {
+  transform: auto;
+  transform: scale(1.1);
+  
+  margin-bottom: 3px;
+  padding-bottom: 3px;
+}
+.btnimg{
+  background-color: red !important;
+  width: 100%;
+}
+b.thetam {
+  color: black;
+  font-size: 20px;
+  margin-right: 204px;
+}
+
+b.oner {
+  margin-left: 125px;
+}
+p.aboutteam {
+  margin-left: 127px;
+  font-size: 13px;
+}
+h1.oner {
+  color: black;
+  font-size: 15px;
+}
+p.pchep {
+  font-size: 14px;
+  margin-left: 91px;
+}
+.team{
+  margin-top: -50px !important;
+}
+.onerrw{
+  margin-top: -70px !important;
+}
+.row.hr {
+  margin-left: 68px !important;
+  height: 10px;
+}
+.msg{
+  background: url(img/11111111111.jpg) !important;
+}
+b.mgsh {
+  color: black !important;
+  margin-top: 100px !important;
+}
+.mgsh2{
+  color: black;
+  margin-top: -50px !important;
+}
+b.number {
+  text-align: center;
+  margin-left: 579px;
+  font-size: 30px;
+}
+b.h1\.name {
+  color: black;
+  font-size: 20px;
+}
+b.h1\.email {
+  color: black;
+  font-size: 20px;
+}
+b.h1\.phone {
+  color: black;
+  font-size: 20px;
+}
+input.form-control.mr-sm-2 {
+  width: 300px;
+  margin-left: 130px;
+}
+b.h1\.massage {
+  color: black;
+  font-size: 20px;
+  margin-right: 600px;
+}
+input.form-control.msg11.mr-sm-2 {
+  margin-left: 331px;
+  width: 826px !important;
+  height: 124px;
+}
+button.btn.btn-outline-secondary {
+  width: 300px;
+  background-color: darkgray;
+  height: 61px;
+  margin-left: 63px;
+}
+
+footer.bg-light.text-center.text-lg-start.mt-5 {
+  background-color: rgb(169, 189, 134) !important;
+}
+
+@media screen and (max-width: 390px){
+
+  img {
+    margin-left: -46px;
+    margin-top: -29px;
+}
+img.teimimg {
+  width: 424px;
+}
+a.contact {
+  margin-left: -279px;
+}
+a.home{
+  margin-left: -279px;
+  color: black;
+}
+a.openig {
+  margin-left: -264px;
+}
+a.menupricing {
+  /* text-align: center !important; */
+  margin-left: -283px;
+}
+a.bbaot.us {
+  margin-left: -290px;
+}
+::before {
+  margin-right: 338px;
+}
+p.text-5 {
+  margin-top: -15pc;
+}
+img.img2 {
+  margin-left: -458px;
+}
+p.p1.EXCITETHEAPPETITEpp {
+  font-size: 9px;
+  color: black;
+  
+  /* width: 388px; */
+}
+button.btn.btnimg {
+  margin-top: -87px;
+  width: 176px;
+
+}
+img.img3 {
+  margin-right: -52px;
+  /* width: 297px !important; */
+}
+p.lastp {
+  margin-left: -47px;
+}
+b.number {
+  margin-left: 103px;
+}
+input.form-control.nam1.mr-sm-2 {
+  margin-left: 46px !important;
+}
+input.form-control.eml2.mr-sm-2 {
+  margin-left: 46px !important;
+}
+input.form-control.numb1.mr-sm-2 {
+  margin-left: 46px !important;
+}
+input.form-control.msg11.mr-sm-2 {
+  margin-left: 16px;
+  width: 379px !important;
+}
+button.btn.btn-outline-secondary {
+  margin-left: 3px;
+}
+img.inst {
+  margin-left: -177px;
+}
+img.facbok {
+  margin-left: 75px;
+  margin-top: -79px;
+}
+img.tawiter {
+  margin-top: -125px;
+}
+ul.list-unstyled.mb-0 {
+  margin-left: -195px;
+}
+ul.list-unstyled.timing {
+  margin-top: -316px;
+  margin-left: 202px;
+}
+img.paymentimg1 {
+  margin-left: -283px;
+}
+img.paymentimg2 {
+  margin-left: 185px;
+  margin-top: -69px;
+}
+button.btn.btn-link {
+  margin-top: -105px;
+  color: black;
+}
+
+
+
+img.paymentimg3 {
+  margin-left: 30px;
+  margin-top: -117px;
+}
+img.paymentimg4 {
+  margin-top: -166px;
+  margin-left: -132px;
+}
+a.text-dark.email {
+  margin-left: 209px;
+}
+a.text-dark.number {
+  margin-left: 212px;
+}
+a.text-dark.\32 number {
+  margin-left: 217px;
+}
+img.img3 {
+  padding: 10px;
+}
+
+
+
+}
+
+
